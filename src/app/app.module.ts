@@ -8,12 +8,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AssignmentFormComponent } from './assignment-form/assignment-form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { ReactiveFormAssignmentComponent } from './reactive-form-assignment/reactive-form-assignment.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AssignmentFormComponent,
     ReactiveFormComponent,
+    ReactiveFormAssignmentComponent,
     
   ],
   imports: [
